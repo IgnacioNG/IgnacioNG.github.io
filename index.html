@@ -1,0 +1,146 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/b7349ed786.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Proyecto CV</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul class="navegador">
+                <li><a href="#Informacion">Informacion Personal</a></li>
+                <li><a href="#Formacion">Formacion</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="#Experiencia">Experiencia laboral</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="containerDivisor">
+        <div>
+            <section>
+                <img id="myimage" alt="foto cv">
+                <h1 id="nombre"></h1>
+                <h3>fecha de nacimiento: <span id="nacimiento"></span></h3>
+                <h3>Direccion: <span id="direccion"></span> </h3>
+                <h3>telefono: <span id="telefono"></span></h3>
+                <h3>email: <span id="correo"></span></h3>
+                <ul class="redes">
+                    <li><a href="https://twitter.com" target="blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com" target="blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
+                    <li><a href="https://ar.linkedin.com/" target="blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="http://instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </li>
+                </ul>
+                <button class="subir" onclick="scrollArriba()"><i class="fa-solid fa-angle-up"></i></button>
+            </section>
+        </div>
+        <div>
+            <section>
+                <h2 id="Informacion"><i class="fa-solid fa-user"></i> Informacion Personal</h2>
+                <hr>
+                <p>Soy un Consultor it y desarrollador de aplicaciones web (full stack) e ingeniero informatico. Mi
+                    experiencia internacional me ha llevado a desarrollarme tambien en el campo del marketing online y
+                    el diseño ux. Me apasiona la docencia y esta habilidad ha representado una ventaja tanto en mi
+                    carrera como formador como en el area de consultoria donde es inprescindible transmitir
+                    correctamente directrices y conocimiento.</p>
+            </section>
+            <section>
+                <h2 id="Formacion"><i class="fa-solid fa-graduation-cap"></i> Formacion</h2>
+                <hr>
+                <h3>Obtencion del Bachillerato en Economia</h3>
+                <p>diciembre 2011</p>
+                <ul>
+                    <li>Colegio San Martin N17</li>
+                    <li>Buena mencion en el examen de bachillerato</li>
+                </ul>
+                <h3>Ingenieria Informatica Superior</h3>
+                <p>noviembre 2015</p>
+                <ul>
+                    <li>Universidad de Buenos Aires</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="Habilidades"><i class="fa-solid fa-list-check"></i> Habilidades</h2>
+                <hr>
+                <h3>Idiomas</h3>
+                <ul>
+                    <li><i class="fa-solid fa-language"></i> Español-Nativo</li>
+                    <li><i class="fa-solid fa-language"></i> Ingles-Nivel alto</li>
+                    <li><i class="fa-solid fa-language"></i> Portugues-Nivel medio</li>
+                </ul>
+                <h3>Destrezas</h3>
+                <ul>
+                    <li><i class="fa-solid fa-file-word"></i> Word</li>
+                    <li><i class="fa-solid fa-file-excel"></i> Excel</li>
+                    <li><i class="fa-solid fa-image"></i> Photoshop</li>
+                    <li><i class="fa-brands fa-js"></i> Javascript</li>
+                    <li><i class="fa-brands fa-wordpress"></i> Wordpress</li>
+                    <li><i class="fa-brands fa-php"></i> PHP</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="Experiencia"><i class="fa-solid fa-briefcase"></i> Experiencia laboral</h2>
+                <hr>
+                <div class="container-boton">
+                    <h3>Project Manager Web Apps</h3>
+                    <button class="mostrar-btn"><i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <p>septiembre 2015 - agosto 2016</p>
+                <ul class="no-visible">
+                    <li>direccion de proyectos de aplicacion web</li>
+                    <li>direccion de proyectos y campañas con microsite</li>
+                </ul>
+                <div class="container-boton">
+                    <h3>Consultor IT/WEB APP</h3>
+                    <button class="mostrar-btn"><i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <p>diciembre 2016 - diciempre 2017</p>
+                <ul class="no-visible">
+                    <li>Formacion para empresas e instituciones publicas</li>
+                    <li>Programacion en VBA y desarrollo web</li>
+                </ul>
+                <div class="container-boton">
+                    <h3>Desarrollador y Diseñador web Freelance</h3>
+                    <button class="mostrar-btn"><i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <p>febrero 2018 - marzo 2020</p>
+                <ul class="no-visible">
+                    <li>realizacion de multiples sitios, portales, intranets y aplicaciones Web</li>
+                    <li>mas de 40 sites y microsites con y sin CMS</li>
+                    <li>trabaje con Joomla, Wordpress y Magento</li>
+                    <li>desarrolle mi propio gestor de contenidos realizado con CakePHP</li>
+                </ul>
+                <div class="container-boton">
+                    <h3>Profesor y Programador</h3>
+                    <button class="mostrar-btn"><i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <p>julio 2020 - noviembre 2022</p>
+                <ul class="no-visible">
+                    <li>Profesor de diseño y programacion de sitios web</li>
+                    <li>Profesor de Marketing digital y SEO</li>
+                    <li>Profesor de microsoft excel para profesionales en activo</li>
+                    <li>Profesor de Photoshop e illustrator para jóvenes estudiantes</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>proyecto Ignacio Galiano</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
